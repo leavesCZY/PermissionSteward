@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_request_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在Activity中申请权限"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_request_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在Fragment中申请权限"
+        android:textAllCaps="false" />
+
+</LinearLayout>

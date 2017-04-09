@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.czy.test.Fragment.Annotation.AnnotationFragment">
+
+    <Button
+        android:id="@+id/btn_request_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="申请SD卡权限" />
+
+</FrameLayout>
